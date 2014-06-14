@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: DevStudioUItestAutomation
-Bundle-SymbolicName: DevStudioUItestAutomation
+Bundle-SymbolicName: org.wso2.developerstudio.eclipse.test.esb
 Bundle-Version: 1.0.0.qualifier
 Bundle-Activator: devstudiouitestautomation.Activator
 Require-Bundle: org.eclipse.ui,
