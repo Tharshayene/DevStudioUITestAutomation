@@ -1,0 +1,131 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                      http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>tycho.demo.itp03</groupId>
+	<artifactId>org.wso2.developerstudio.eclipse.test.esb</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<packaging>eclipse-test-plugin</packaging>
+
+
+	<properties>
+		<tycho-version>0.7.0-SNAPSHOT</tycho-version>
+		<uitest.vmparams>-Xms2048m -Xmx3096m -XX:MaxPermSize=1024m
+		</uitest.vmparams>
+	</properties>
+
+	<repositories>
+
+		<repository>
+			<id>kepler</id>
+			<layout>p2</layout>
+			<url>http://download.eclipse.org/releases/kepler</url>
+		</repository>
+
+		<!-- <repository> <id>helios</id> <layout>p2</layout> <url>http://download.eclipse.org/releases/helios</url> 
+			</repository> -->
+
+		<repository>
+			<id>swtbot</id>
+			<layout>p2</layout>
+			<url>http://download.eclipse.org/technology/swtbot/helios/dev-build/update-site</url>
+
+			<!-- <url>http://download.eclipse.org/technology/swtbot/releases/latest</url> -->
+		</repository>
+
+
+
+		<repository>
+			<id>DevStudio</id>
+			<layout>p2</layout>
+			<url>http://dist.wso2.org/p2/developer-studio/releases/3.6.0/</url>
+		</repository>
+
+
+
+	</repositories>
+
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.8.1</version>
+			<scope>test</scope>
+		</dependency>
+
+
+	</dependencies>
+
+
+
+
+	<build>
+
+
+		<!-- <sourceDirectory>${basedir}/src</sourceDirectory> -->
+
+
+		<plugins>
+
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>tycho-maven-plugin</artifactId>
+				<version>0.14.1</version>
+				<extensions>true</extensions>
+
+			</plugin>
+
+
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>tycho-surefire-plugin</artifactId>
+				<version>0.14.1</version>
+
+				<configuration>
+
+					<resolver>p2</resolver>
+					<useUIHarness>true</useUIHarness>
+					<useUIThread>false</useUIThread>
+					<!-- <argLine>-Xmx1024m -XX:PermSize=256m -XX:MaxPermSize=512m -Xdebug 
+						-Xnoagent -Djava.compiler=NONE -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=5006</argLine> -->
+					<argLine>${uitest.vmparams}</argLine>
+					<application>org.eclipse.ui.ide.workbench</application>
+					<product>org.eclipse.sdk.ide</product>
+
+
+					<dependencies>
+
+
+						<!-- Adding dependency for tycho -->
+
+
+
+						<dependency>
+							<type>p2-installable-unit</type>
+							<artifactId>org.eclipse.sdk.ide</artifactId>
+							<version>0.0.0</version>
+						</dependency>
+
+
+						<!-- <dependency> <type>p2-installable-unit</type> <artifactId>org.hamcrest</artifactId> 
+							<version>1.1.0</version> </dependency> -->
+
+
+
+					</dependencies>
+
+
+				</configuration>
+			</plugin>
+		</plugins>
+
+
+
+
+
+	</build>
+
+
+
+</project>
