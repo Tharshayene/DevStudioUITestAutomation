@@ -31,7 +31,8 @@ Todo list
 
 5. Run SWTBot tests with Maven
 
-6. Add ESB Features to the Product under test
+6. Add ESB dependencies to the Product under test (org.eclipse.sdk.ide)
+   P2: http://dist.wso2.org/p2/developer-studio/releases/3.6.0/
 
 7. Write test cases
 

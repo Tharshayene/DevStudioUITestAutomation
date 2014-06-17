@@ -1,4 +1,4 @@
-package devstudiouitestautomation;
+package org.wso2.developerstudio.eclipse.test.esb.activator;
 
 import org.eclipse.ui.plugin.AbstractUIPlugin;
 import org.osgi.framework.BundleContext;
