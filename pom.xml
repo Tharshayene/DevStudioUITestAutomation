@@ -112,6 +112,116 @@
 							<version>1.1.0</version> </dependency> -->
 
 
+						<!-- ESB Core -->
+						<dependency>
+							<groupId>org.wso2.developerstudio</groupId>
+							<artifactId>org.wso2.developerstudio.eclipse.esb.core</artifactId>
+							<version>0.0.0</version>
+							<type>eclipse-plugin</type>
+						</dependency>
+
+
+
+						<!-- Adding dependencies from feature->ESB (7+4+5=16) -->
+						<dependency>
+							<groupId>org.wso2.developerstudio</groupId>
+							<artifactId>org.wso2.developerstudio.eclipse.esb.project</artifactId>
+							<version>0.0.0</version>
+							<type>eclipse-plugin</type>
+						</dependency>
+						<dependency>
+							<groupId>org.wso2.developerstudio</groupId>
+							<artifactId>org.wso2.developerstudio.eclipse.artifact.endpoint</artifactId>
+							<version>0.0.0</version>
+							<type>eclipse-plugin</type>
+						</dependency>
+						<dependency>
+							<groupId>org.wso2.developerstudio</groupId>
+							<artifactId>org.wso2.developerstudio.eclipse.artifact.proxyservice</artifactId>
+							<version>0.0.0</version>
+							<type>eclipse-plugin</type>
+						</dependency>
+						<dependency>
+							<groupId>org.wso2.developerstudio</groupId>
+							<artifactId>org.wso2.developerstudio.eclipse.artifact.sequence</artifactId>
+							<version>0.0.0</version>
+							<type>eclipse-plugin</type>
+						</dependency>
+						<dependency>
+							<groupId>org.wso2.developerstudio</groupId>
+							<artifactId>org.wso2.developerstudio.eclipse.artifact.localentry</artifactId>
+							<version>0.0.0</version>
+							<type>eclipse-plugin</type>
+						</dependency>
+						<dependency>
+							<groupId>org.wso2.developerstudio</groupId>
+							<artifactId>org.wso2.developerstudio.eclipse.artifact.mediator</artifactId>
+							<version>0.0.0</version>
+							<type>eclipse-plugin</type>
+						</dependency>
+						<dependency>
+							<groupId>org.wso2.developerstudio</groupId>
+							<artifactId>org.wso2.developerstudio.eclipse.artifact.synapse</artifactId>
+							<version>0.0.0</version>
+							<type>eclipse-plugin</type>
+						</dependency>
+
+
+
+						<dependency>
+							<groupId>org.wso2.developerstudio</groupId>
+							<artifactId>org.wso2.developerstudio.eclipse.esb</artifactId>
+							<version>0.0.0</version>
+							<type>eclipse-plugin</type>
+						</dependency>
+						<dependency>
+							<groupId>org.wso2.developerstudio</groupId>
+							<artifactId>org.wso2.developerstudio.eclipse.esb.edit</artifactId>
+							<version>0.0.0</version>
+							<type>eclipse-plugin</type>
+						</dependency>
+						<dependency>
+							<groupId>org.wso2.developerstudio</groupId>
+							<artifactId>org.wso2.developerstudio.eclipse.esb.editor</artifactId>
+							<version>0.0.0</version>
+							<type>eclipse-plugin</type>
+						</dependency>
+						<dependency>
+							<groupId>org.wso2.developerstudio</groupId>
+							<artifactId>org.wso2.developerstudio.eclipse.esb.mediator</artifactId>
+							<version>0.0.0</version>
+							<type>eclipse-plugin</type>
+						</dependency>
+
+						<dependency>
+							<groupId>org.wso2.developerstudio</groupId>
+							<artifactId>org.wso2.developerstudio.eclipse.gmf.esb</artifactId>
+							<version>0.0.0</version>
+							<type>eclipse-plugin</type>
+						</dependency>
+						<dependency>
+							<groupId>org.wso2.developerstudio</groupId>
+							<artifactId>org.wso2.developerstudio.eclipse.gmf.esb.diagram</artifactId>
+							<version>0.0.0</version>
+							<type>eclipse-plugin</type>
+						</dependency>
+						<dependency>
+							<groupId>org.wso2.developerstudio</groupId>
+							<artifactId>org.wso2.developerstudio.eclipse.gmf.esb.edit</artifactId>
+							<version>0.0.0</version>
+							<type>eclipse-plugin</type>
+						</dependency>
+						<dependency>
+							<groupId>org.wso2.developerstudio</groupId>
+							<artifactId>org.wso2.developerstudio.eclipse.gmf.esb.persistence</artifactId>
+							<version>0.0.0</version>
+							<type>eclipse-plugin</type>
+						</dependency>
+						<!-- <dependency> <groupId>org.wso2.developerstudio</groupId> <artifactId>org.wso2.developerstudio.eclipse.gmf.esb.sequence.diagram</artifactId> 
+							<version>0.0.0</version> <type>eclipse-plugin</type> </dependency> -->
+
+
+
 
 					</dependencies>
 

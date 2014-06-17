@@ -28,6 +28,8 @@ public class FirstTestCase {
 		bot.tree().expandNode("Java").select("Java Project");
 		bot.button("Next >").click();
 
+		bot.sleep(9000);
+
 		bot.textWithLabel("Project name:").setText("MyFirstProject");
 
 		bot.button("Finish").click();
