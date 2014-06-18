@@ -100,13 +100,19 @@
 
 
 						<!-- Adding dependency for tycho -->
-
-
-
 						<dependency>
 							<type>p2-installable-unit</type>
 							<artifactId>org.eclipse.sdk.ide</artifactId>
 							<version>0.0.0</version>
+						</dependency>
+
+
+						<!-- ESB Core -->
+						<dependency>
+							<groupId>org.wso2.developerstudio</groupId>
+							<artifactId>org.wso2.developerstudio.eclipse.esb.core</artifactId>
+							<version>0.0.0</version>
+							<type>eclipse-plugin</type>
 						</dependency>
 
 
