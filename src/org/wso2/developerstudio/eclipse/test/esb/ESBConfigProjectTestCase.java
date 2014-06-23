@@ -35,12 +35,12 @@ import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.wso2.developerstudio.ecilpse.test.esb.utility.DashBoardCreation;
-import org.wso2.developerstudio.ecilpse.test.esb.utility.ESBConfigProjectCreation;
-import org.wso2.developerstudio.ecilpse.test.esb.utility.SetUp;
-import org.wso2.developerstudio.ecilpse.test.esb.utility.TearDown;
 import org.wso2.developerstudio.eclipse.test.esb.properties.Properties;
 import org.wso2.developerstudio.eclipse.test.esb.properties.PropertiesESB;
+import org.wso2.developerstudio.eclipse.test.esb.utility.DashBoardCreation;
+import org.wso2.developerstudio.eclipse.test.esb.utility.ESBConfigProjectCreation;
+import org.wso2.developerstudio.eclipse.test.esb.utility.SetUp;
+import org.wso2.developerstudio.eclipse.test.esb.utility.TearDown;
 
 /**
  * @author nila

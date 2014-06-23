@@ -15,7 +15,7 @@
  *under the License.
  */
 
-package org.wso2.developerstudio.ecilpse.test.esb.utility;
+package org.wso2.developerstudio.eclipse.test.esb.utility;
 
 import static org.junit.Assert.assertTrue;
 

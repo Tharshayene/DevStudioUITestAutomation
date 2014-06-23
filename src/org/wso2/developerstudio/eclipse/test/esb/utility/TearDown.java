@@ -15,7 +15,7 @@
  *under the License.
  */
 
-package org.wso2.developerstudio.ecilpse.test.esb.utility;
+package org.wso2.developerstudio.eclipse.test.esb.utility;
 
 import org.eclipse.swtbot.eclipse.finder.SWTWorkbenchBot;
 import org.eclipse.swtbot.swt.finder.widgets.SWTBotTreeItem;
