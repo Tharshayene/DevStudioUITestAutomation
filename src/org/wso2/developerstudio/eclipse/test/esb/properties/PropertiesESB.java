@@ -35,6 +35,10 @@ public class PropertiesESB {
 	public static String ARTIFACT_MY_ESB_CONFIG_PROJECT_FOR_SYNAPSE_CONFIG_TEST = "ESBprojectForSynapseConfigTest";
 	public static String BUTTON_YES = "Yes";
 	public static String ERROR_MSG_ESB_CONFIG_PROJECT_NOT_CREATED = "The ESB Config project is not created";
+	public static String TEXT_WITH_LABEL_ENDPOINT = "Endpoint Name";
+	public static String IMAGE_HYPER_LINK_CREATE_NEW_PROJECT = "Create new Project...";
+	public static String ARTIFACT_ENDPOINT_NAME = "MyEndpoint";
+	public static String ARTIFACT_ENDPOINT_URL = "http://wso2.com/";
 	public static final String SHELL_MEDIATOR_CREARTOR_WIZARD = "Mediator Creation Wizard";
 	public static final String ERROR_MSG_REGISTRY_RESOURCE_PROJECT_WASNT_CREATED = "Registry Resource Project wasn't created properly";
 	public static final String ERROR_MSG_REGISTRY_RESOURCE_WASNT_CREATED = "Registry Resourc wasn't created properly";

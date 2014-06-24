@@ -136,6 +136,8 @@ public final class Properties {
 
 	public static String ERROR_OPEN_CREATION_WIZARD = "Error while opening the Project Creation Wizard";
 
+	public static String TEXT_WITH_LABEL_Address = "Address";
+
 	public static final String BUTTON_NO = "No";
 
 	public static final String SHELL_AXIS2_SERVICE = "Axis2 service";

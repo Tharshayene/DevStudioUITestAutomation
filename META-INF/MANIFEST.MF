@@ -14,8 +14,10 @@ Require-Bundle: org.eclipse.ui,
  org.apache.commons.collections;bundle-version="3.2.0",
  org.eclipse.swtbot.eclipse.finder,
  org.eclipse.swtbot.junit4_x,
- org.eclipse.swtbot.swt.finder
+ org.eclipse.swtbot.swt.finder,
+ org.eclipse.swt
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Bundle-ActivationPolicy: lazy
-Import-Package: org.eclipse.swtbot.forms.finder.widgets,
+Import-Package: org.eclipse.swtbot.eclipse.gef.finder,
+ org.eclipse.swtbot.forms.finder.widgets,
  org.eclipse.ui.forms.widgets
